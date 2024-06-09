@@ -1,11 +1,13 @@
 import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
+import { useParams } from "react-router-dom";
 
 const MainLayout = ({ children }) => {
+  const { theme } = useParams();
   return (
     <>
-      <div data-theme="synthwave" className="font-custom">
+      <div data-theme={theme ? theme : 'dracula'} className="font-custom">
         <header>
           <NavBar />
         </header>
