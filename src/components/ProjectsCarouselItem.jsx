@@ -6,13 +6,9 @@ const ProjectsCarouselItem = ({ image, alt, description }) => {
     <CarouselItem>
       <div className="flex flex-col items-center h-full">
         <div className="w-full h-2/3 bg-primary">
-          <img
-            src={image}
-            alt={alt}
-            className="h-full w-full"
-          />
+          <img src={image} alt={alt} className="h-full w-full" />
         </div>
-        <p className="text-xl text-base-content">{description}</p>
+        <p className="text-xl text-base-content py-4">{description}</p>
       </div>
     </CarouselItem>
   );

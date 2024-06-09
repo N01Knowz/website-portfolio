@@ -18,9 +18,9 @@ const Projects = () => {
   return (
     <section
       className="w-auto bg-base-200 p-3 lg:p-12 sm:p-6 text-center flex flex-col items-center gap-6"
-      id="skills"
+      id="projects"
     >
-      <p className="text-3xl font-bold">Projects</p>
+      <p className="text-3xl font-bold pb-5">Projects</p>
       <div className="w-2/3 md: 3/5 lg:w-1/2">
         <Carousel>
           <CarouselContent>

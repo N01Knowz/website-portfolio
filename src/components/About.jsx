@@ -2,8 +2,18 @@ import React from "react";
 
 const About = () => {
   return (
-    <section className="w-auto h-screen flex items-center justify-center bg-base-200" id="about">
-      About
+    <section
+      className="w-auto bg-base-200 p-3 lg:p-12 sm:p-6 text-center"
+      id="about"
+    >
+      <p className="text-3xl font-bold pb-5">About Me</p>
+      <div className="flex justify-center">
+        <p className="w-1/2">
+          I'm a web developer with a passion for building online experiences
+          that people love to use. From smooth navigation to powerful features,
+          I've got you covered.
+        </p>
+      </div>
     </section>
   );
 };

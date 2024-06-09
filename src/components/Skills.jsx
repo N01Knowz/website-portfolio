@@ -35,10 +35,10 @@ const Skills = () => {
       className="w-auto bg-base p-3 lg:p-12 sm:p-6 text-center"
       id="skills"
     >
-      <p className="text-3xl font-bold">Skills</p>
+      <p className="text-3xl font-bold pb-5">Skills</p>
       <div className="w-full max-w-2xl space-y-8 text-left mx-auto">
         <div>
-          <p className="text-2xl font-semibold">Programming Languages</p>
+          <p className="text-2xl font-semibold mb-4">Programming Languages</p>
           <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={HTML} className="h-12 w-12" alt="HTML" />
@@ -63,7 +63,7 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <p className="text-2xl font-semibold">Frameworks</p>
+          <p className="text-2xl font-semibold mb-4">Frameworks</p>
           <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={Laravel} className="h-12 w-12" alt="Laravel" />
@@ -88,7 +88,7 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <p className="text-2xl font-semibold">UI Components</p>
+          <p className="text-2xl font-semibold mb-4">UI Components</p>
           <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={DaisyUI} className="h-12 w-12" alt="DaisyUI" />
@@ -98,7 +98,7 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <p className="text-2xl font-semibold">Tools</p>
+          <p className="text-2xl font-semibold mb-4">Tools</p>
           <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={Git} className="h-12 w-12" alt="Git" />
