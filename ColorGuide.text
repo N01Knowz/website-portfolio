@@ -1,0 +1,54 @@
+Primary:
+Purpose: The primary color is used for the main interactive elements such as buttons, links, and highlights.
+Usage: It represents the most important actions users can take. It should be visually distinctive to guide users toward key interactions.
+Example: Call-to-action buttons, primary navigation items.
+
+Secondary:
+Purpose: The secondary color is used for secondary actions that are not as prominent as the primary actions but still need to stand out.
+Usage: It complements the primary color and provides a way to differentiate between levels of importance in actions.
+Example: Secondary buttons, links, and highlights that are less critical than primary actions.
+
+Accent:
+Purpose: The accent color is used for highlighting certain elements to draw attention to them without overshadowing the primary or secondary colors.
+Usage: It adds emphasis to particular components and helps guide the user's focus.
+Example: Highlighting important text, icons, or badges.
+
+Neutral:
+Purpose: Neutral colors are used for backgrounds, borders, and text. They provide a calm and balanced look without drawing too much attention.
+Usage: They create contrast with primary, secondary, and accent colors to improve readability and accessibility.
+Example: Backgrounds, card surfaces, dividers, and body text.
+
+Base:
+Purpose: The base color often refers to the main background color or the default color for surfaces.
+Usage: It serves as the foundation upon which other colors are layered. It ensures that content is readable and that the overall design is cohesive.
+Example: Page background, main content areas.
+
+Info:
+Purpose: The info color is used to convey informational messages and alerts.
+Usage: It draws attention to general information that users should notice but does not require immediate action.
+Example: Information banners, tooltip backgrounds, non-critical alerts.
+
+Success:
+Purpose: The success color is used to indicate successful actions, positive outcomes, or confirmations.
+Usage: It reassures users that an action has been completed successfully or that something is in a good state.
+Example: Success messages, checkmarks, progress bars.
+
+Warning:
+Purpose: The warning color is used to alert users about potential issues or actions that require caution.
+Usage: It captures attention and conveys that users should be careful about what they are doing.
+Example: Warning messages, cautionary buttons, alerts for potentially risky actions.
+
+Error/Danger:
+Purpose: The error or danger color is used to signal errors, critical alerts, and dangerous actions.
+Usage: It indicates that something has gone wrong or that a serious action needs to be addressed immediately.
+Example: Error messages, delete buttons, form validation errors.
+
+Light/Background:
+Purpose: The light or background color is often used for backgrounds or light surfaces.
+Usage: It ensures content stands out clearly, typically used for light themes.
+Example: Page backgrounds, card backgrounds.
+
+Dark/Foreground:
+Purpose: The dark or foreground color is used for text and other elements that need high contrast with light backgrounds.
+Usage: It ensures readability and visibility, typically used for dark themes.
+Example: Text, icons, borders.

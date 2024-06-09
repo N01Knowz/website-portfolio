@@ -1,0 +1,38 @@
+.text-xs (0.75rem, 12px):
+Use for very small text, such as disclaimers, legal text, and fine print.
+
+.text-sm (0.875rem, 14px):
+Use for secondary content, such as captions, labels, and less important text.
+
+.text-base (1rem, 16px):
+This is the default text size for body text. Use for paragraphs and general content.
+
+.text-lg (1.125rem, 18px):
+Use for slightly larger body text, subheadings, and important information that needs emphasis.
+
+.text-xl (1.25rem, 20px):
+Use for subheadings, standalone short pieces of text, or to emphasize key points.
+
+.text-2xl (1.5rem, 24px):
+Use for section headings, prominent subheadings, or to draw attention to important content.
+
+.text-3xl (1.875rem, 30px):
+Use for primary headings or to emphasize critical information.
+
+.text-4xl (2.25rem, 36px):
+Use for large headings or hero sections.
+
+.text-5xl (3rem, 48px):
+Use for very prominent headings, such as on landing pages or major sections.
+
+.text-6xl (3.75rem, 60px):
+Use for extra-large headings, often in hero sections or major announcements.
+
+.text-7xl (4.5rem, 72px):
+Use for main titles on landing pages or in major promotional sections.
+
+.text-8xl (6rem, 96px):
+Use for highly impactful headings, typically in hero sections of landing pages.
+
+.text-9xl (8rem, 128px):
+Use for the most prominent text, often as part of very large displays or banners.
