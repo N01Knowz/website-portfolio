@@ -16,6 +16,7 @@ const NavBar = () => {
     <div className="bg-neutral/50 fixed w-full">
       <ul className="flex justify-center gap-5 p-4 text-neutral-content">
         <li>
+          <a href="cupcake">cupcake</a>
           <a
             href="#home"
             onClick={(e) => handleClick(e, "home")}
