@@ -24,9 +24,16 @@ const Projects = () => {
               <div>
                 <img src={posims_branch} alt="Global for Posims" />
                 <p className="text-xl text-base-content">
-                  POSIMS Branch: A Web Application POSIMS (Point of Sale and Inventory Management System) with a websocket to send its data to its 
-                  global app (Posims Global). Able to do Point of Sales with the roles of Sales Person to make the Orders, Cashier as the one who will deal with the payments,
-                  and the Admin, the role with the permission to Allow Purchase Orders, Check for revenue and reports, Check for products, and look at the activity logs.
+                  This web-based POS (Point of Sale) system simplifies sales and
+                  inventory management for your branches.
+                  <br />
+                  It features: Role-based access: Salespeople create orders,
+                  cashiers handle payments, and admins manage purchase orders,
+                  reports, products, and activity logs.
+                  <br />
+                  Real-time data: Integrates with POSIMS Global for seamless
+                  data exchange and centralized monitoring. Focuses on the key
+                  functionalities and simplifies the technical details.
                 </p>
               </div>
             </CarouselItem>
@@ -34,6 +41,7 @@ const Projects = () => {
               <div>
                 <img src={posims_global} alt="Global for Posims" />
                 <p className="text-xl text-base-content">
+                  {" "}
                   POSIMS Global: A Web Application used to view the revenue,
                   transactions, reports, and products of the branches. Able to
                   remotely add payments for the Purchase Orders of the branches.
