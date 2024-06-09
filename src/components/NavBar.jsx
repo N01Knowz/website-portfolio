@@ -19,7 +19,7 @@ const NavBar = () => {
           <a
             href="#home"
             onClick={(e) => handleClick(e, "home")}
-            className="hover:text-info cursor-pointer"
+            className="hover:text-primary cursor-pointer"
           >
             Home
           </a>
@@ -28,7 +28,7 @@ const NavBar = () => {
           <a
             href="#about"
             onClick={(e) => handleClick(e, "about")}
-            className="hover:text-info cursor-pointer"
+            className="hover:text-primary cursor-pointer"
           >
             About
           </a>
@@ -37,7 +37,7 @@ const NavBar = () => {
           <a
             href="#skills"
             onClick={(e) => handleClick(e, "skills")}
-            className="hover:text-info cursor-pointer"
+            className="hover:text-primary cursor-pointer"
           >
             Skills
           </a>
@@ -46,7 +46,7 @@ const NavBar = () => {
           <a
             href="#projects"
             onClick={(e) => handleClick(e, "projects")}
-            className="hover:text-info cursor-pointer"
+            className="hover:text-primary cursor-pointer"
           >
             Projects
           </a>
@@ -55,7 +55,7 @@ const NavBar = () => {
           <a
             href="#contact"
             onClick={(e) => handleClick(e, "contact")}
-            className="hover:text-info cursor-pointer"
+            className="hover:text-primary cursor-pointer"
           >
             Contact
           </a>
