@@ -2,7 +2,7 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <section className="w-auto h-screen flex items-center justify-center">Hero</section>
+    <section className="w-auto h-screen flex items-center justify-center" id="home">Hero</section>
   );
 };
 

@@ -13,8 +13,25 @@ import GitHub from "../assets/GitHub.png";
 import VisualStudio from "../assets/VisualStudio.png";
 
 const Skills = () => {
+  const starRating = (rating) => {
+    return (
+      <div className="flex">
+        {[...Array(5)].map((_, i) => (
+          <svg
+            key={i}
+            className={`h-4 w-4 ${i < rating ? "text-info" : "text-gray-300;"}`}
+            fill="currentColor"
+            viewBox="0 0 20 20"
+          >
+            <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.286 3.96a1 1 0 00.95.69h4.174c.969 0 1.371 1.24.588 1.81l-3.37 2.454a1 1 0 00-.364 1.118l1.287 3.96c.3.921-.755 1.688-1.54 1.118l-3.37-2.454a1 1 0 00-1.175 0l-3.37 2.454c-.785.57-1.84-.197-1.54-1.118l1.287-3.96a1 1 0 00-.364-1.118L2.05 9.387c-.783-.57-.38-1.81.588-1.81h4.174a1 1 0 00.95-.69l1.287-3.96z" />
+          </svg>
+        ))}
+      </div>
+    );
+  };
+
   return (
-    <section className="w-auto bg-base p-3 lg:p-12 sm:p-6 text-center">
+    <section className="w-auto bg-base p-3 lg:p-12 sm:p-6 text-center" id="skills">
       <p className="text-3xl font-bold">Skills</p>
       <div className="w-full max-w-2xl space-y-8 text-left mx-auto">
         <div>
@@ -23,22 +40,22 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={HTML} className="h-12 w-12" alt="HTML" />
               <p className="text-xl">HTML</p>
-              <div>Rating</div>
+              {starRating(5)}
             </div>
             <div className="flex flex-col items-center">
               <img src={CSS} className="h-12 w-12" alt="CSS" />
               <p className="text-xl">CSS</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
               <img src={js} className="h-12 w-12" alt="JavaScript" />
               <p className="text-xl">JavaScript</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
               <img src={php} className="h-12 w-12" alt="php" />
               <p className="text-xl">PHP</p>
-              <div>Rating</div>
+              {starRating(5)}
             </div>
           </div>
         </div>
@@ -48,22 +65,22 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={Laravel} className="h-12 w-12" alt="Laravel" />
               <p className="text-xl">Laravel</p>
-              <div>Rating</div>
+              {starRating(5)}
             </div>
             <div className="flex flex-col items-center">
               <img src={ReactLogo} className="h-12 w-12" alt="React" />
               <p className="text-xl">React</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
               <img src={ReactNative} className="h-12 w-12" alt="React Native" />
               <p className="text-xl">React Native</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
               <img src={TailwindCSS} className="h-12 w-12" alt="Tailwind CSS" />
               <p className="text-xl">Tailwind CSS</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
           </div>
         </div>
@@ -73,7 +90,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={DaisyUI} className="h-12 w-12" alt="DaisyUI" />
               <p className="text-xl">DaisyUI</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
           </div>
         </div>
@@ -83,12 +100,12 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={Git} className="h-12 w-12" alt="Git" />
               <p className="text-xl">Git</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
               <img src={GitHub} className="h-12 w-12" alt="GitHub" />
               <p className="text-xl">GitHub</p>
-              <div>Rating</div>
+              {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
               <img
@@ -97,7 +114,7 @@ const Skills = () => {
                 alt="Visual Studio"
               />
               <p className="text-xl">Visual Studio</p>
-              <div>Rating</div>
+              {starRating(5)}
             </div>
           </div>
         </div>
