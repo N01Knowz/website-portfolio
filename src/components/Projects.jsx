@@ -21,7 +21,7 @@ const Projects = () => {
       id="skills"
     >
       <p className="text-3xl font-bold">Projects</p>
-      <div className="w-4/5 md: 3/5 lg:w-1/2">
+      <div className="w-2/3 md: 3/5 lg:w-1/2">
         <Carousel>
           <CarouselContent>
             <ProjectsCarouselItem

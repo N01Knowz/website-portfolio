@@ -31,7 +31,10 @@ const Skills = () => {
   };
 
   return (
-    <section className="w-auto bg-base p-3 lg:p-12 sm:p-6 text-center" id="skills">
+    <section
+      className="w-auto bg-base p-3 lg:p-12 sm:p-6 text-center"
+      id="skills"
+    >
       <p className="text-3xl font-bold">Skills</p>
       <div className="w-full max-w-2xl space-y-8 text-left mx-auto">
         <div>
