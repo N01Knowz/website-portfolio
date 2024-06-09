@@ -78,11 +78,13 @@
 @font-face {
   font-family: "Lato"; /* Name of the font */
   src: url("./assets/Fonts/Lato-Regular.ttf") format("truetype"); /* Path to the font file */
+  font-display: swap;
 }
 
 @font-face {
   font-family: "Tiny5"; /* Name of the font */
   src: url("./assets/Fonts/Tiny5-Regular.ttf") format("truetype"); /* Path to the font file */
+  font-display: swap;
 }
 
 .font-lato {
