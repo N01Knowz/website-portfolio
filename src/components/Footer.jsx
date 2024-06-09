@@ -13,7 +13,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-base md:text-xl">
           <p className="flex items-center justify-center gap-2">
             <MdEmail />
-            Email: <span> ronronoarnibal@gmail.com</span>
+            Email: <span> ronronarnibal@gmail.com</span>
           </p>
           <p className="hidden md:block">|</p>
           <p className="flex items-center justify-center gap-2">
