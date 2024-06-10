@@ -10,7 +10,7 @@ const Footer = () => {
         id="contact"
       >
         <p className="py-2 text-3xl">Contact Me</p>
-        <div className="flex flex-col md:flex-row items-center justify-center gap-6 text-base md:text-xl">
+        <div className="flex flex-col md:flex-row items-center justify-center gap-2 md:gap-6 text-base md:text-xl">
           <p className="flex items-center justify-center gap-2">
             <MdEmail />
             Email: <span> ronronarnibal@gmail.com</span>
