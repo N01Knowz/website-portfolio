@@ -8,7 +8,7 @@ const About = () => {
     >
       <p className="text-3xl font-bold pb-5">About Me</p>
       <div className="flex justify-center">
-        <p className="w-1/2 text-2xl">
+        <p className="w-4/5 text-2xl">
           I'm a web developer with a passion for building online experiences
           that people love to use. From smooth navigation to powerful features,
           I've got you covered.

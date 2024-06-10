@@ -13,8 +13,9 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-neutral/50 fixed w-full z-10">
-      <ul className="flex justify-center gap-5 p-4 text-neutral-content">
+    <div className="bg-neutral/50 fixed w-full z-10 flex p-4 md:p-6 justify-center md:justify-between">
+      <p className="hidden md:block text-xl">Portfolio</p>
+      <ul className="flex justify-center gap-5 text-neutral-content md:text-xl">
         <li>
           <a
             href="#home"
