@@ -2,6 +2,7 @@ import React from "react";
 import pfp from "../assets/ronaldo.png";
 import { FaFacebook, FaGithub, FaLinkedin } from "react-icons/fa";
 import { FaUpwork } from "react-icons/fa6";
+import cv from "../assets/ronaldo_resume.pdf";
 
 const Hero = () => {
   return (
@@ -41,6 +42,20 @@ const Hero = () => {
             className="h-full border-accent text-accent border-2 p-1 transition hover:bg-accent hover:text-accent-content duration-500 hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] hover:shadow-accent"
           >
             <FaUpwork className="text-3xl" />
+          </a>
+        </div>
+        <div>
+          <a
+            href={cv}
+            download="Example-PDF-document"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button
+              className={`transition duration-500 hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] hover:shadow-accent btn btn-accent btn-outline`}
+            >
+              Download CV
+            </button>
           </a>
         </div>
       </div>

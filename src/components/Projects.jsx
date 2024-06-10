@@ -21,48 +21,82 @@ const Projects = () => {
       id="projects"
     >
       <p className="text-3xl font-bold pb-5">Projects</p>
-      <div className="w-2/3 md: 3/5 lg:w-1/2">
-        <Carousel>
-          <CarouselContent>
-            <ProjectsCarouselItem
-              image={posims_branch}
+      <div className="w-2/3 md:w-3/5 lg:w-3/4 text-left flex flex-col gap-20">
+        <div className="flex flex-col md:flex-row justify-center gap-6">
+          <div className="min-w-full md:min-w-96 md:w-1/2">
+            <img
+              src={posims_branch}
               alt="Image for Branch Posims"
-              description="
-                  Posims Branch: A Web Application POS (Point of Sale) system
-                  simplifies sales and inventory management for your branches.
-                  Integrates with POSIMS Global for seamless data exchange and
-                  centralized monitoring."
+              className="w-full"
             />
-            <ProjectsCarouselItem
-              image={posims_global}
+          </div>
+          <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
+            <p className="text-3xl">Posims Branch</p>
+            <p className="text-xl">POS and Inventory Management</p>
+            <p>
+              A Point of Sales and Inventory Management application built with
+              Laravel. Integrated with a Global application for data exchange
+              and centralized monitoring.
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col-reverse md:flex-row justify-center gap-6">
+          <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
+            <p className="text-3xl">Posims Global</p>
+            <p className="text-xl">Branch Monitoring System</p>
+            <p>
+              A centralized monitoring system for the branches built with
+              laravel. Uses websocket for real-time data exchange.
+            </p>
+          </div>
+          <div className="min-w-full md:min-w-96 md:w-1/2">
+            <img
+              src={posims_global}
               alt="Image for Global Posims"
-              description="
-                  POSIMS Global: A Web Application used to view the revenue,
-                  transactions, reports, and products of the branches. Able to
-                  remotely add payments for the Purchase Orders of the branches.
-                  Uses BeyondCode Websocket to communicate with the branches in
-                  real-time. Giving real-time updates for each of the branches."
+              className="w-full"
             />
-            <ProjectsCarouselItem
-              image={ada_test_bank}
-              alt="Image for Ada Test Bank Posims"
-              description="
-                  ADA Test Bank: A Web Application where teacher can store their
-                  tests, quizzes, exams, and etc. And it is also where students
-                  can take those tests. It has a machine learning where it can
-                  classify the questions based on John Holland's Theory of
-                  Career Choice (RIASEC)."
+          </div>
+        </div>
+        <div className="flex flex-col md:flex-row justify-center gap-6">
+          <div className="min-w-full md:min-w-96 md:w-1/2">
+            <img
+              src={ada_test_bank}
+              alt="Image for ADA Test Bank"
+              className="w-full"
             />
-            <ProjectsCarouselItem
-              image={licky_movie}
-              alt="Image for Ada Test Licky Movie"
-              description="
-                  Licky Movie: A Web Application to see the monthly movie release in the Philippines."
+          </div>
+          <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
+            <p className="text-3xl">ADA Test Bank</p>
+            <p className="text-xl">
+              A Comprehensive System for Storing and Administering Quizzes,
+              Tests, and Exams
+            </p>
+            <p>
+              A Web Application where teacher can store their tests, quizzes,
+              and exams built with laravel. And it is also where students can
+              take those tests. It has a machine learning where it can classify
+              the questions based on John Holland's Theory of Career Choice
+              (RIASEC).
+            </p>
+          </div>
+        </div>
+        <div className="flex flex-col-reverse md:flex-row justify-center gap-6">
+          <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
+            <p className="text-3xl">Licky Movie</p>
+            <p className="text-xl">Movie Release Monitoring</p>
+            <p>
+              A Web Application to see the monthly movie release in the
+              Philippines.
+            </p>
+          </div>
+          <div className="min-w-full md:min-w-96 md:w-1/2">
+            <img
+              src={licky_movie}
+              alt="Image for Licky Movie"
+              className="w-full"
             />
-          </CarouselContent>
-          <CarouselPrevious className="text-primary hover:scale-125" />
-          <CarouselNext className="text-primary hover:scale-125" />
-        </Carousel>
+          </div>
+        </div>
       </div>
     </section>
   );
