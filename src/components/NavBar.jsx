@@ -13,7 +13,7 @@ const NavBar = () => {
   };
 
   return (
-    <div className="bg-neutral/50 fixed w-full">
+    <div className="bg-neutral/50 fixed w-full z-10">
       <ul className="flex justify-center gap-5 p-4 text-neutral-content">
         <li>
           <a
@@ -24,7 +24,7 @@ const NavBar = () => {
             Home
           </a>
         </li>
-        <li>
+        <li className="md:hidden">
           <a
             href="#about"
             onClick={(e) => handleClick(e, "about")}

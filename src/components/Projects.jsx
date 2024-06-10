@@ -31,9 +31,9 @@ const Projects = () => {
             />
           </div>
           <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
-            <p className="text-3xl">Posims Branch</p>
+            <p className="text-4xl font-bold">Posims Branch</p>
             <p className="text-xl">POS and Inventory Management</p>
-            <p>
+            <p className="text-justify">
               A Point of Sales and Inventory Management application built with
               Laravel. Integrated with a Global application for data exchange
               and centralized monitoring.
@@ -42,9 +42,9 @@ const Projects = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-row justify-center gap-6">
           <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
-            <p className="text-3xl">Posims Global</p>
+            <p className="text-4xl font-bold">Posims Global</p>
             <p className="text-xl">Branch Monitoring System</p>
-            <p>
+            <p className="text-justify">
               A centralized monitoring system for the branches built with
               laravel. Uses websocket for real-time data exchange.
             </p>
@@ -66,12 +66,12 @@ const Projects = () => {
             />
           </div>
           <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
-            <p className="text-3xl">ADA Test Bank</p>
+            <p className="text-4xl font-bold">ADA Test Bank</p>
             <p className="text-xl">
               A Comprehensive System for Storing and Administering Quizzes,
               Tests, and Exams
             </p>
-            <p>
+            <p className="text-justify">
               A Web Application where teacher can store their tests, quizzes,
               and exams built with laravel. And it is also where students can
               take those tests. It has a machine learning where it can classify
@@ -82,9 +82,9 @@ const Projects = () => {
         </div>
         <div className="flex flex-col-reverse md:flex-row justify-center gap-6">
           <div className="min-w-full md:min-w-96 md:w-1/2 flex flex-col gap-2">
-            <p className="text-3xl">Licky Movie</p>
+            <p className="text-4xl font-bold">Licky Movie</p>
             <p className="text-xl">Movie Release Monitoring</p>
-            <p>
+            <p className="text-justify">
               A Web Application to see the monthly movie release in the
               Philippines.
             </p>
