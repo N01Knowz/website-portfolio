@@ -27,10 +27,10 @@ const Hero = () => {
           <p className="text-4xl md:text-5xl lg:text-6xl font-bold">
             Ronaldo Arnibal Jr
           </p>
-          <p className="text-xl font-semibold">
-            I'm a <span className="text-info">FullStack Developer</span>
+          <p className="text-2xl font-semibold">
+            I am a <span className="text-info">FullStack Developer</span>
           </p>
-          <p className="hidden md:block">
+          <p className="hidden md:block text-xl">
             I'm a web developer with a passion for building online experiences
             that people love to use. From smooth navigation to powerful
             features, I've got you covered.
