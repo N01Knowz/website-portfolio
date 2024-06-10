@@ -2,6 +2,7 @@ import React from "react";
 import NavBar from "../components/NavBar";
 import Footer from "../components/Footer";
 import { useParams } from "react-router-dom";
+import { SpeedInsights } from "@vercel/speed-insights/next"
 
 const MainLayout = ({ children }) => {
   const { theme } = useParams();
@@ -15,6 +16,7 @@ const MainLayout = ({ children }) => {
         <footer>
           <Footer />
         </footer>
+        <SpeedInsights />
       </div>
     </>
   );
