@@ -38,7 +38,7 @@ const Skills = () => {
       <p className="text-3xl font-bold pb-5">Skills</p>
       <div className="w-full max-w-2xl space-y-8 text-left mx-auto">
         <div>
-          <p className="text-2xl font-semibold mb-4">Programming Languages</p>
+          <p className="text-2xl font-semibold mb-4">Markup and Styling</p>
           <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={HTML} className="h-12 w-12" alt="HTML" />
@@ -50,6 +50,11 @@ const Skills = () => {
               <p className="text-xl">CSS</p>
               {starRating(4)}
             </div>
+          </div>
+        </div>
+        <div>
+          <p className="text-2xl font-semibold mb-4">Programming Languages</p>
+          <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={js} className="h-12 w-12" alt="JavaScript" />
               <p className="text-xl">JavaScript</p>
