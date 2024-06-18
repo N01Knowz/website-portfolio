@@ -11,6 +11,8 @@ import DaisyUI from "../assets/DaisyUI.png";
 import Git from "../assets/Git.png";
 import GitHub from "../assets/GitHub.png";
 import VisualStudio from "../assets/VisualStudio.png";
+import NextJS from "../assets/NextJS.png";
+import Vue from "../assets/Vue.png";
 
 const Skills = () => {
   const starRating = (rating) => {
@@ -81,6 +83,11 @@ const Skills = () => {
               {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
+              <img src={NextJS} className="h-12 w-12" alt="NextJS" />
+              <p className="text-xl">NextJS</p>
+              {starRating(3)}
+            </div>
+            <div className="flex flex-col items-center">
               <img src={ReactNative} className="h-12 w-12" alt="React Native" />
               <p className="text-xl">React Native</p>
               {starRating(4)}
@@ -89,6 +96,11 @@ const Skills = () => {
               <img src={TailwindCSS} className="h-12 w-12" alt="Tailwind CSS" />
               <p className="text-xl">Tailwind CSS</p>
               {starRating(4)}
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={Vue} className="h-12 w-12" alt="Vue" />
+              <p className="text-xl">Vue</p>
+              {starRating(3)}
             </div>
           </div>
         </div>
