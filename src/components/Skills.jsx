@@ -100,7 +100,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={Vue} className="h-12 w-12" alt="Vue" />
               <p className="text-xl">Vue</p>
-              {starRating(3)}
+              {starRating(4)}
             </div>
           </div>
         </div>
