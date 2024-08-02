@@ -21,7 +21,7 @@ const Projects = () => {
           title="Posims Branch"
           introduction="POS and Inventory Management"
           description="A Point of Sales and Inventory Management application built with
-              Laravel. Integrated with a Global application for data exchange
+              Laravel and Vue. Integrated with a Global application for data exchange
               and centralized monitoring."
         />
         <ProjectsItemsReverse
@@ -30,7 +30,7 @@ const Projects = () => {
           title="Posims Global"
           introduction="Branch Monitoring System"
           description="A centralized monitoring system for the branches built with
-              laravel. Uses websocket for real-time data exchange."
+              laravel and Vue. Uses websocket for real-time data exchange."
         />
         <ProjectsItems
           image={ada_test_bank}

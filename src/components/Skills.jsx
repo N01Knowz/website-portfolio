@@ -88,11 +88,6 @@ const Skills = () => {
               {starRating(3)}
             </div>
             <div className="flex flex-col items-center">
-              <img src={ReactNative} className="h-12 w-12" alt="React Native" />
-              <p className="text-xl">React Native</p>
-              {starRating(4)}
-            </div>
-            <div className="flex flex-col items-center">
               <img src={TailwindCSS} className="h-12 w-12" alt="Tailwind CSS" />
               <p className="text-xl">Tailwind CSS</p>
               {starRating(4)}
