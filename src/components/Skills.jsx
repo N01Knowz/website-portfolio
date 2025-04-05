@@ -5,7 +5,6 @@ import js from "../assets/js.png";
 import php from "../assets/php.png";
 import Laravel from "../assets/Laravel.png";
 import ReactLogo from "../assets/React.png";
-import ReactNative from "../assets/ReactNative.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
 import DaisyUI from "../assets/DaisyUI.png";
 import Git from "../assets/Git.png";
@@ -13,6 +12,8 @@ import GitHub from "../assets/GitHub.png";
 import VisualStudio from "../assets/VisualStudio.png";
 import NextJS from "../assets/NextJS.png";
 import Vue from "../assets/Vue.png";
+import Copilot from "../assets/copilot.png";
+import Chatgpt from "../assets/chatgpt.png";
 
 const Skills = () => {
   const starRating = (rating) => {
@@ -60,7 +61,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={js} className="h-12 w-12" alt="JavaScript" />
               <p className="text-xl">JavaScript</p>
-              {starRating(4)}
+              {starRating(5)}
             </div>
             <div className="flex flex-col items-center">
               <img src={php} className="h-12 w-12" alt="php" />
@@ -85,7 +86,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={NextJS} className="h-12 w-12" alt="NextJS" />
               <p className="text-xl">NextJS</p>
-              {starRating(3)}
+              {starRating(5)}
             </div>
             <div className="flex flex-col items-center">
               <img src={TailwindCSS} className="h-12 w-12" alt="Tailwind CSS" />
@@ -95,7 +96,7 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={Vue} className="h-12 w-12" alt="Vue" />
               <p className="text-xl">Vue</p>
-              {starRating(4)}
+              {starRating(3)}
             </div>
           </div>
         </div>
@@ -121,6 +122,24 @@ const Skills = () => {
               <img src={GitHub} className="h-12 w-12" alt="GitHub" />
               <p className="text-xl">GitHub</p>
               {starRating(4)}
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={Copilot}
+                className="h-12 w-12"
+                alt="Copilot"
+              />
+              <p className="text-xl">Copilot</p>
+              {starRating(5)}
+            </div>
+            <div className="flex flex-col items-center">
+              <img
+                src={Chatgpt}
+                className="h-12 w-12"
+                alt="ChatGPT"
+              />
+              <p className="text-xl">ChatGPT</p>
+              {starRating(5)}
             </div>
             <div className="flex flex-col items-center">
               <img

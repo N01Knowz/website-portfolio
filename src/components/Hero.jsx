@@ -39,6 +39,7 @@ const Hero = () => {
         <div className="flex flex-col gap-4">
           <div className="flex md:flex-col gap-4">
             <a
+              target="_blank"
               href="https://www.facebook.com/N01Knowz"
               aria-label="Contact me at facebook with https://www.facebook.com/N01Knowz"
               className="inline-flex items-center justify-center border-accent text-accent border-2 p-1 transition hover:bg-accent hover:text-accent-content duration-500 hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] hover:shadow-accent"
@@ -46,6 +47,7 @@ const Hero = () => {
               <FaFacebook className="text-3xl" />
             </a>
             <a
+              target="_blank"
               href="https://github.com/N01Knowz"
               aria-label="Check my github at https://github.com/N01Knowz"
               className="inline-flex items-center justify-center border-accent text-accent border-2 p-1 transition hover:bg-accent hover:text-accent-content duration-500 hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] hover:shadow-accent"
@@ -53,6 +55,7 @@ const Hero = () => {
               <FaGithub className="text-3xl" />
             </a>
             <a
+              target="_blank"
               href="https://www.linkedin.com/in/ronaldo-arnibal-92a423312/"
               aria-label="Check my LinkedIn profile at https://www.linkedin.com/in/ronaldo-arnibal-92a423312/"
               className="inline-flex items-center justify-center border-accent text-accent border-2 p-1 transition hover:bg-accent hover:text-accent-content duration-500 hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] hover:shadow-accent"
@@ -60,6 +63,7 @@ const Hero = () => {
               <FaLinkedin className="text-3xl" />
             </a>
             <a
+              target="_blank"
               href="https://www.upwork.com/freelancers/~019669b44581bde85c"
               aria-label="Check my Upwork profile at https://www.upwork.com/freelancers/~019669b44581bde85c"
               className="inline-flex items-center justify-center border-accent text-accent border-2 p-1 transition hover:bg-accent hover:text-accent-content duration-500 hover:shadow-[0_0_20px_5px_rgba(0,0,0,0.3)] hover:shadow-accent"

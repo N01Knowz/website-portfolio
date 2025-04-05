@@ -7,7 +7,7 @@ const MainLayout = ({ children }) => {
   const { theme } = useParams();
   return (
     <>
-      <div data-theme={theme ? theme : "synthwave"} className="font-lato">
+      <div data-theme={theme ? theme : "dracula"} className="font-lato">
         <header>
           <NavBar />
         </header>
