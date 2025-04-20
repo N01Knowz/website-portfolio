@@ -151,9 +151,9 @@ const Skills = () => {
               <img
                 src={VisualStudio}
                 className="h-12 w-12"
-                alt="Visual Studio"
+                alt="Visual Studio Code"
               />
-              <p className="text-xl">Visual Studio</p>
+              <p className="text-xl">Visual Studio Code</p>
               {starRating(5)}
             </div>
           </div>
