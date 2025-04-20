@@ -72,7 +72,7 @@ const Skills = () => {
           </div>
         </div>
         <div>
-          <p className="text-2xl font-semibold mb-4">Frameworks</p>
+          <p className="text-2xl font-semibold mb-4">Frameworks & Libraries</p>
           <div className="flex flex-wrap gap-6 justify-center">
             <div className="flex flex-col items-center">
               <img src={Laravel} className="h-12 w-12" alt="Laravel" />
