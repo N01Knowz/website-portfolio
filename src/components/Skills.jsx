@@ -6,6 +6,7 @@ import php from "../assets/php.png";
 import Laravel from "../assets/Laravel.png";
 import ReactLogo from "../assets/React.png";
 import TailwindCSS from "../assets/TailwindCSS.png";
+import Jquery from "../assets/Jquery.png";
 import DaisyUI from "../assets/DaisyUI.png";
 import Git from "../assets/Git.png";
 import GitHub from "../assets/GitHub.png";
@@ -91,6 +92,11 @@ const Skills = () => {
             <div className="flex flex-col items-center">
               <img src={TailwindCSS} className="h-12 w-12" alt="Tailwind CSS" />
               <p className="text-xl">Tailwind CSS</p>
+              {starRating(4)}
+            </div>
+            <div className="flex flex-col items-center">
+              <img src={Jquery} className="h-12 w-12" alt="JQuery" />
+              <p className="text-xl">JQuery</p>
               {starRating(4)}
             </div>
             <div className="flex flex-col items-center">
